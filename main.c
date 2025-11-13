@@ -22,8 +22,9 @@ bool contains_prohibited_words(const char *input)
     return false;
 }
 int main(void)
-{restart:
+{
     char input[101];
+    restart:
     printf("Please enter:");
     fgets(input, sizeof(input), stdin);
     if (contains_prohibited_words(input))
@@ -37,6 +38,7 @@ int main(void)
     scanf(" %c", &judge);
     if (judge == 'y' || judge == 'Y')
     {
+        getchar();
         goto restart;
     }
     return 0;
