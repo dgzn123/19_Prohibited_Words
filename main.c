@@ -29,7 +29,7 @@ int main(void)
     fgets(input, sizeof(input), stdin);
     if (contains_prohibited_words(input))
     {
-        printf("Input contains prohibited words. Try again.\n");
+        printf("How dare you, son of a bitch? Give you a chance and try again: \n");
         goto restart;
     }
     printf("Input accepted: %s", input);
