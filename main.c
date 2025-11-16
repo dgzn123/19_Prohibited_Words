@@ -4,7 +4,7 @@
 #include <ctype.h>
 bool contains_prohibited_words(const char *input)
 {
-    const char *prohibited[] = {"fuck", "shit", "asshole", "pussy"};
+    const char *prohibited[] = {"fuck", "shit", "asshole", "pussy", "bitch"};
     int count = sizeof(prohibited) / sizeof(prohibited[0]);
     char lower_input[101];
     for (int i = 0; input[i] && i < 100; i++)
