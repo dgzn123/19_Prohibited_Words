@@ -24,7 +24,7 @@ bool contains_prohibited_words(const char *input)
 int main(void)
 {
     char input[101];
-    restart:
+restart:
     printf("Please enter:");
     fgets(input, sizeof(input), stdin);
     if (contains_prohibited_words(input))
