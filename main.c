@@ -22,13 +22,14 @@ bool contains_prohibited_words(const char *input)
     const char *prohibited[] = {"fuck", "shit", "asshole", "pussy", "bitch"};
     int count = sizeof(prohibited) / sizeof(prohibited[0]);
     char lower_input[101];
+    int i = 0;
 
-    for (int i = 0; input[i] && i < 100; i++)
+    for (; input[i] && i < 100; i++)
     {
-        lower_input[i] = tolower(input[i]);
+        lower_input[i] = (char)tolower((unsigned char)input[i]);
     }
 
-    lower_input[100] = '\0';
+    lower_input[i] = '\0';
 
     for (int i = 0; i < count; i++)
     {
@@ -47,7 +48,10 @@ int main(void)
 restart:
 
     printf("Please enter:");
-    fgets(input, sizeof(input), stdin);
+    if (fgets(input, sizeof(input), stdin) == NULL)
+    {
+        return 0;
+    }
 
     if (contains_prohibited_words(input))
     {
