@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 4.0)
+cmake_minimum_required(VERSION 3.20)
 project(19_Prohibited_Words C)
 
 set(CMAKE_C_STANDARD 23)

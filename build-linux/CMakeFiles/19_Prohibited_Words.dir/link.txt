@@ -1,0 +1,1 @@
+/usr/bin/cc -Wl,--dependency-file=CMakeFiles/19_Prohibited_Words.dir/link.d CMakeFiles/19_Prohibited_Words.dir/main.c.o -o 19_Prohibited_Words

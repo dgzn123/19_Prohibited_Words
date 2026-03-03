@@ -1,0 +1,3 @@
+/home/heda/Documents/Codes/19_Prohibited_Words/build/CMakeFiles/19_Prohibited_Words.dir
+/home/heda/Documents/Codes/19_Prohibited_Words/build/CMakeFiles/edit_cache.dir
+/home/heda/Documents/Codes/19_Prohibited_Words/build/CMakeFiles/rebuild_cache.dir

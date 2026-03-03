@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/heda/Documents/Codes/19_Prohibited_Words/build",
+  "command": "/usr/bin/c89-gcc   -g -std=gnu2x -o CMakeFiles/19_Prohibited_Words.dir/main.c.o -c /home/heda/Documents/Codes/19_Prohibited_Words/main.c",
+  "file": "/home/heda/Documents/Codes/19_Prohibited_Words/main.c",
+  "output": "CMakeFiles/19_Prohibited_Words.dir/main.c.o"
+}
+]
